@@ -1,3 +1,5 @@
+import noodles from './noodles-one.jpg';
+
 function loadAbout () {
 
   const contentDiv = document.getElementById('content');
@@ -11,7 +13,7 @@ function loadAbout () {
 
   function composeContent () {
     createComponent('h1', 'About Us', null);
-    createComponent('img', null, '../img/noodles-one.jpg');
+    createComponent('img', null, noodles);
     createComponent('p', "Founded in 2009 by Chef Ryan Dahl, we've been serving up the greatest noodles experienced in this part of the world.", null);
     createComponent('p', "Chef Dahl discovered a way to bundle an enormous and borderline unnecessary amount of noodles into our flagship plate: The nood_modules platter. Everything else on the menu is great, but nothing competes with the sheer size of our house special.", null);
     createComponent('p', "Come visit us at 123 Lorem Ipsum Drive.", null);

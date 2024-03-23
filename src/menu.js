@@ -1,3 +1,5 @@
+import noodles from './noodles-one.jpg'
+
 function loadMenu () {
 
   const contentDiv = document.getElementById('content');
@@ -11,7 +13,7 @@ function loadMenu () {
 
   function composeContent () {
     createComponent('h1', 'Menu', null);
-    createComponent('img', null, '../img/noodles-one.jpg');
+    createComponent('img', null, noodles);
     createComponent('h3', "nood_modules", null);
     createComponent('p', "Just take them. It's why you're here.", null);
     createComponent('br', null, null);
